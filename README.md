@@ -17,7 +17,7 @@ Controlar a posição de um servo motor conforme os níveis de luminosidade dete
 - 1x Arduino UNO
 - 1x Servo motor (SG90 ou similar)
 - 1x Fotoresistor (LDR)
-- 1x Resistor 10kΩ (para o LDR)
+- 1x Resistor 1kΩ (para o LDR)
 - Jumpers (cabos de conexão)
 - 1x Protoboard
 - Cabo USB para alimentação e programação
@@ -30,18 +30,18 @@ Controlar a posição de um servo motor conforme os níveis de luminosidade dete
 - Um terminal do LDR conectado ao **5V**
 - Outro terminal do LDR conectado ao:
   - **A0** (entrada analógica do Arduino)
-  - Um resistor de **10kΩ** que vai para o **GND**
+  - Um resistor de **1kΩ** que vai para o **GND**
 
 ### Conexões do Servo Motor:
 - **Vermelho (VCC):** 5V do Arduino  
-- **Marrom ou Preto (GND):** GND do Arduino  
-- **Laranja ou Amarelo (Sinal):** Pino Digital **2** do Arduino
+- **Preto (GND):** GND do Arduino  
+- **Verde (Sinal):** Pino Digital **2** do Arduino
 
 ---
 
 ## 🖼️ Imagem do Circuito
 
-![Imagem do Circuito](caminho/para/sua/imagem.png)
+![Imagem do Circuito](https://github.com/user-attachments/assets/3154ddce-c11e-4488-9fa8-7a4928ef8222)
 
 
 <h2>📄 Licença</h2>
